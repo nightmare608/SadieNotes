@@ -1,0 +1,30 @@
+{
+  "app": "SadieNotes",
+  "version": "1.0.0",
+  "package": "com.sadienotes.app",
+  "min_android": 8,
+  "target_api": 35,
+  "ui": {
+    "passed": 176,
+    "viewports": [
+      360,
+      390,
+      768,
+      1280
+    ],
+    "scope": "Browser UI, import/parser security, persistence, native bridge fixtures. Not an Android device test."
+  },
+  "crypto": {
+    "passed": 13,
+    "scope": "Production Crypto.java backup encryption on host JVM, Android Base64 shim. Android Keystore requires device testing."
+  },
+  "signature_v2": true,
+  "signature_v3": true,
+  "permissions": [
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "android_device_tested": false,
+  "apk_bytes": 62161,
+  "apk_sha256": "320977e8e3fd7a81152c0b9d3ca44b1ba3f224c5f694079cd55dc52237b0c927"
+}

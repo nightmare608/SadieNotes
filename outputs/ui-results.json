@@ -1,0 +1,10 @@
+{
+  "passed": 176,
+  "viewports": [
+    360,
+    390,
+    768,
+    1280
+  ],
+  "scope": "Browser UI, import/parser security, persistence, native bridge fixtures. Not an Android device test."
+}
